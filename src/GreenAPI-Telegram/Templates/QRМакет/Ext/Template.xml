@@ -11,26 +11,37 @@
 	</languageSettings>
 	<columns>
 		<size>12</size>
+		<columnsItem>
+			<index>0</index>
+			<column>
+				<formatIndex>1</formatIndex>
+			</column>
+		</columnsItem>
 	</columns>
 	<rowsItem>
 		<index>0</index>
 		<row>
 			<c>
 				<c>
-					<f>0</f>
+					<f>1</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
-&lt;body&gt;
+&lt;body style="margin: 0; padding: 0; height: 100vh; display: flex; align-items: center; justify-content: center; overflow: hidden;"&gt;
 
-&lt;img ng-show="$nnn.showQR" id="img-qr-code" alt="QR-Code" class="sb-qr-wizard-qr-code" aria-hidden="false" src="data:image/png;base64,%QR_DATA%" style=""&gt;
+&lt;img 
+    ng-show="$nnn.showQR" 
+    id="img-qr-code" 
+    alt="QR-Code" 
+    class="sb-qr-wizard-qr-code" 
+    aria-hidden="false" 
+    src="data:image/png;base64,%QR_DATA%" 
+    style="max-width: 100%; max-height: 100%; object-fit: contain; display: block;"&gt;
+
 &lt;/body&gt;
-&lt;/html&gt; 
-
-
-</v8:content>
+&lt;/html&gt;</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -46,6 +57,146 @@
 	</rowsItem>
 	<rowsItem>
 		<index>1</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>2</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>3</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>4</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>5</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>6</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>7</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>8</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>9</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>10</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>11</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>12</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>13</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>14</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>15</index>
 		<indexTo>43</indexTo>
 		<row>
 			<empty>true</empty>
@@ -64,9 +215,12 @@
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>1</defaultFormatIndex>
+	<defaultFormatIndex>2</defaultFormatIndex>
 	<height>45</height>
 	<vgRows>45</vgRows>
+	<format>
+		<width>941</width>
+	</format>
 	<format>
 		<width>72</width>
 	</format>
