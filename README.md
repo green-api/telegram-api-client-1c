@@ -1,6 +1,6 @@
 # Демо обработка для работы с Telegram из 1С  
 
-Репозиторий представляет собой исходники конфигурации в формате выгрузки xml файлов с одной обработкой. Из обработки можно отправить сообщение в мессенджер Telegram. Интеграция с Telegram сделана через REST сервис [green-api.com](https://green-api.com/Telegram)  
+Репозиторий представляет собой исходники конфигурации в формате выгрузки xml файлов с одной обработкой. Из обработки можно отправить сообщение в мессенджер Telegram. Интеграция с Telegram сделана через REST API сервис [green-api.com](https://green-api.com/Telegram)  
 
 Данная обработка создана на основе ранее разработанной обработки интеграции [WhatsApp с GREEN-API](https://github.com/green-api/whatsapp-api-client-1c).  
 
@@ -107,7 +107,7 @@ API мессенджера Telegram лучше подходит для серв�
 
 ### Подключение Telegram в обработке  
 
-1. [Скачать обработку](https://github.com/green-api/telegram-api-client-1c/releases/download/1.0.0/GreenAPI-Telegram.epf) в формате epf  
+1. [Скачать обработку](https://github.com/green-api/telegram-api-client-1c/releases/download/1.0.1/GreenAPI-Telegram.epf) в формате epf  
 2. Подключиться к сервису через встроенный в обработку помощник или  самостоятельно через сайт [green-api.com](https://green-api.com/). Получить ``API Token`` и ``ID Instance``  
 3. В разделе «Настройки → Подключение» укажите:  
   * host - api.green-api.com  
